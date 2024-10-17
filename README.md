@@ -2,69 +2,7 @@
 
 ## PROJECT TITLE: SALES PERFORMANCE ANALYSIS
 
-### PROJECT OVERVIEW
-This Data Analysis
-
-
-
-1.        TOTAL SALES OF PRODUCT 			             
-.     Row Labels 	               Sum of Revenue 		           
-.     Gloves 	                        1,500,000.00 		                    
-.     Hat 	                           1,587,500.00 		                    
-.     Jacket 	                        1,050,000.00 		                 
-.     Shirt 	                         2,450,000.00 		                    
-.     Shoes 	                         3,087,500.00 		                  
-.     Socks 	                           912,500.00
-   			
-.   Grand Total 	                    10,587,500.00
-    
-
-2.           TOTAL SALES BY REGION 
-  .   Row Labels 	              Sum of Revenue
-  .     East 	                     2,450,000.00
-  .     North 	                    1,950,000.00
-  .     South 	                    4,675,000.00 
-  .     West 	                     1,512,500.00
-  
-  .     Grand Total               10,587,500.00
-
-  
-4. TOTAL SALES BY MONTH 			                                             4.  TOP 6 SALES PRODUCT BY UNIT SOLD 	
-.Row Labels    	Sum of Revenue		                                              .    Row Labels 	         Sum of UnitPrice 
-.2023			                                                                  .    Gloves 	              175,000.00 
-.    Jan	         250000		                                                   .     Hat 	                212,500.00 
-'    Feb	         1250000		                                                  .     Jacket 	             312,500.00 
-.    Mar	         262500		                                                   .    Shirt 	               275,000.00 
-.    Apr	         37500		                                                    .     Shoes 	              350,000.00 
-.    May         	300000		                                                   .     Socks 	              137,500.00 
-.    Jun         	500000		                                                   .   Grand Total 	          1,462,500.00 
-.    Jul	        1200000			
-.    Aug        	150000			
-.    Sep	        175000			
-.    Oct        	675000			
-.    Nov	        525000			
-.    Dec        	250000		                                                     5.   TOTAL REVENUE BY REGION 	
-.2024			                                                                       .   Row Labels 	       Sum of Revenue 
-.    Jan	       1000000		                                                      .           East 	         2,450,000.00 
-.    Feb       	1500000		                                                      .           North 	        1,950,000.00 
-.    Mar       	275000		                                                       .           South 	        4,675,000.00 
-.    Apr       	200000		                                                       .           West 	         1,512,500.00 
-.    May      	 225000		                                                       .     Grand Total 	       10,587,500.00 
-.    Jun	       750000			
-.    Jul	       187500			
-.    Aug        875000
-   			
-Grand Total	    10587500
-
-
-6. AVERAGE SALES PER PRODUCT 		                                                7.  TOTAL SALES PER PRODUCT 	
-. Row Labels 	        Average of Revenue 	                                             .    Row Labels 	       Sum of Revenue 
-. Gloves 	             200.00 	                                                        .    Gloves 	         1,500,000.00 
-. Hat 	                 158.75 	                                                       .     Hat 	          1,587,500.00 
-. Jacket 	              140.00 	                                                       .  Jacket 	          1,050,000.00 
-. Shirt 	               326.67 	                                                       .      Shirt          2,450,000.00 
-. Shoes 	               308.75 	                                                       .      Shoes 	        3,087,500.00 
-. Socks 	               121.67 	                                                       .      Socks 	           912,500.00
+### PROJE
 
  
  
