@@ -65,8 +65,6 @@ Grand Total	    10587500
 . Shirt 	               326.67 	                                                       .      Shirt          2,450,000.00 
 . Shoes 	               308.75 	                                                       .      Shoes 	        3,087,500.00 
 . Socks 	               121.67 	                                                       .      Socks 	           912,500.00
- 
-. Grand Total 	        211.75 	                                                        . Grand Total 	          10,587,500.00
 
  
  
