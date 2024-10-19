@@ -9,11 +9,13 @@ This Data Analysis project aims to generate insight intothe sales performance of
 The primary source of data used here is a Data Sales csv and this is gotten from canvas.
 
 ### TOOLS USED
-  . Microsoft Excel [downloade here]{htts:/wwwmicrosoftexcel.com
-  1, for Data cleaning.
-  2, for Analysis.
-  3, for Data Visualization.
+  . Microsoft Excel [downloade here]{htts:/wwwmicrosoftexcel.com}
+ 1, for Data cleaning.
+ 2, for Analysis.
+ 3, for Data Visualization.
+ 
   . SQL- Structured Query Language for Overying of Data.
+  
   . Power BI for Data Visualzation
 
  
