@@ -19,7 +19,9 @@ The primary source of data used here is a Data Sales csv and this is gotten from
  
   . SQL- Structured Query Language for Overying of Data.
   
-  . Power BI for Data Visualzation
+  . Power BI for Data Visualzation.
+
+  
 
  
  
