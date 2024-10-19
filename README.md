@@ -12,7 +12,9 @@ The primary source of data used here is a Data Sales csv and this is gotten from
   . Microsoft Excel [downloade here]{htts://www.microsoftexcel.com}
   
  1, for Data cleaning.
+ 
  2, for Analysis.
+ 
  3, for Data Visualization.
  
   . SQL- Structured Query Language for Overying of Data.
