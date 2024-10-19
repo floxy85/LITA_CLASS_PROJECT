@@ -1,8 +1,20 @@
-# LITA_CLASS_DOCUMENTATION
+# DA_CLASS_PROJECT
 
 ## PROJECT TITLE: SALES PERFORMANCE ANALYSIS
 
-### PROJE
+### PROJECT OVERVIEW
+This Data Analysis project aims to generate insight intothe sales performance of a Retail Store over the past years. BY analysisng the various parameters in the data recieved. we gather enough insight to make reasonable decisions which enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+
+### DATA SOURCES
+The primary source of data used here is a Data Sales csv and this is gotten from canvas.
+
+### TOOLS USED
+  . Microsoft Excel [downloade here]{htts:/wwwmicrosoftexcel.com
+  1, for Data cleaning.
+  2, for Analysis.
+  3, for Data Visualization.
+  . SQL- Structured Query Language for Overying of Data.
+  . Power BI for Data Visualzation
 
  
  
