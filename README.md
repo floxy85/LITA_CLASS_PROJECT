@@ -22,34 +22,49 @@ The primary source of data used here is a Data Sales csv and this is gotten from
   . Power BI for Data Visualzation.
 
   
+               TOTAL REVENUE BY REGION
+               
+![image](https://github.com/user-attachments/assets/9321c242-d100-4468-8d5b-04ac7a2fc26f)
+
+
+             TOTAL REVENUE BY PRODUCT
+             
+![image](https://github.com/user-attachments/assets/b313264e-d602-4e56-8e3e-eb8c88a66475)
+
+
+               TOTAL REVENUE BY MONTH 
+               
+![image](https://github.com/user-attachments/assets/db48a912-5d6c-47e2-8e8d-3d0d57783596)
+
+
+            
+             TOTAL PRODUCT BY UNITPRICE 
+![image](https://github.com/user-attachments/assets/80a346bc-d36c-4a74-bfb1-d0eac45530d6)
+
+
+
+                TOTAL PRoDUCT BY UNITPRICE AND REGION 	
+ 
+![image](https://github.com/user-attachments/assets/038b84aa-f806-49cc-a36d-490ca4b6e82b)
+
+
+             REGION BY AVERAGE SALES 	
+ 
+![image](https://github.com/user-attachments/assets/6c915df3-5383-4c58-b1b3-ce043b367cec)
+
+
+           AVERAGES SALES BY YEARS 	
+ 
+![image](https://github.com/user-attachments/assets/bd436759-ada2-4852-a2df-5030cdcca1dc)
+
 
  
- 
-![image](https://github.com/user-attachments/assets/5f14287b-85ac-4a04-9f5e-14ad2b6059ba)
 
 
 
 
 
 
-
-![image](https://github.com/user-attachments/assets/42a530ce-00ef-4b7e-92a2-eb455e1b3dcb)
-
-
-
- 
-![image](https://github.com/user-attachments/assets/b916df11-757f-4bd7-8304-43e18eb2f172)
-
-
-
-![image](https://github.com/user-attachments/assets/2e253cda-0803-462b-861e-d838b8081052)
-
-
-
-![image](https://github.com/user-attachments/assets/18006db8-b366-4729-aab1-c919796677d7)
-
-
-![image](https://github.com/user-attachments/assets/6a372b64-826c-41a9-81f4-9e7c5f257650)
 
 
 
