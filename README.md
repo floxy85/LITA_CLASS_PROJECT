@@ -58,7 +58,31 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 ![image](https://github.com/user-attachments/assets/bd436759-ada2-4852-a2df-5030cdcca1dc)
 
 
- 
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/01bf6018-ec66-4ba2-beb7-e1d473f42534)         ![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f
+
+
+
+![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f4)
+
+
+PRODUCT BY AVERAGE SALES USING EXCEL CALCULATION
+![image](https://github.com/user-attachments/assets/0f5e45f1-f52e-4264-9ce6-6f845b0249ba)         
+
+
+![image](https://github.com/user-attachments/assets/b92f2eb5-fb43-4e6b-a8a4-fec59a22f81a)
+
+
+
+
+
+
+
 
 
 
