@@ -86,6 +86,130 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 
+CREATE DATABASE FLOR_DB
+
+select *from [dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+
+                -----To get Revenue By Product------
+                
+select sum(revenue) AS totalsale From[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+
+                  ----find the number of sales transactions in each region---
+                  
+select region, count(*) AS Numberofsalestransactions
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+group by region
+
+
+              ----calculate total revenue per product---
+              
+select product, SUM(Revenue) AS Revenue
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+group by product
+
+
+                    ----Retrieve the total sales for each product category---
+                    
+select product, SUM(Revenue) AS TOTALSALES
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+group by product
+
+
+                  ----find the Highest-selling product by total sales value----
+                  
+select top 5 product, SUM(revenue) AS Highestsellingproduct
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+group by product
+
+ORDER BY 2 DESC
+
+                            -----To get Revenue By Product------
+                            
+select sum(revenue) AS totalsale
+
+From[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+
+
+               
+                ----calculate monthly sales totals for the current year---
+
+SELECT
+     Year(Orderdate) AS year,
+ 
+  MONTH(OrderDate) AS month,
+  
+   SUM(Revenue) AS Totalsales
+  
+   from [dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+  
+   WHERE
+       YEAR(orderdate) = YEAR((2024-01-30))
+   
+    GROUP BY
+        YEAR(OrderDate),
+              MONTH(orderdate)
+    ORDER BY
+          YEAR(orderdate),
+          MONTH(OrderDate);
+     
+
+              
+              ----find the top 5 customers by total purchase---
+              
+select top 5 customer_id, sum(revenue) AS totalproduct
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+group by customer_id
+
+order by 2 desc
+
+
+            ----identify products with no sales in the last quarter---
+
+
+SELECT
+   
+    p.productid,
+	
+ p.productname
+ 
+ FROM [dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+    
+     products p
+
+LEFT JOIN
+    
+     sales s ON p.products = s.products
+	
+  AND s.saledate >= '2023-04-30'(QUARTER, -1,)
+
+ WHERE  
+      s.productname IS NULL
+  
+  
+
+               -----Calculate the percentage of total sales contributed by each region----
+
+               
+select region,  sum(quantity) as total_quantity, (sum(quantity) / (SELECT SUM(quantity) totalsales) * 100) AS Percentage
+
+from[dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
+GROUP BY region
+
+ORDER BY SUM(quantity) desc;
 
 
 
