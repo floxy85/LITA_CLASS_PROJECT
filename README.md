@@ -222,11 +222,17 @@ ORDER BY SUM(quantity) desc;
 
 
 
-. Power BI for Data Visualzation.
+. Power BI for Data Visualzation
 
 
 
 
+
+![1730592768522](https://github.com/user-attachments/assets/914d4906-90b8-48fe-bdb0-c271b0a9cf04)
+
+
+
+![1730592617598](https://github.com/user-attachments/assets/6752f05c-b2a8-43f1-90f9-15b60f3adb2a)
 
 
 
