@@ -3,7 +3,7 @@
 ## PROJECT TITLE: SALES PERFORMANCE ANALYSIS
 
 ### PROJECT OVERVIEW
-This Data Analysis project aims to generate insight intothe sales performance of a Retail Store over the past years. BY analysisng the various parameters in the data recieved. we gather enough insight to make reasonable decisions which enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+This Data Analysis project aims to generate insight into the sales performance of a Retail Store over the past years. BY analysisng the various parameters in the data recieved. we gather enough insight to make reasonable decisions which enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
 
 ### DATA SOURCES
 The primary source of data used here is a Data Sales csv and this is gotten from canvas.
@@ -19,7 +19,6 @@ The primary source of data used here is a Data Sales csv and this is gotten from
  
   
   
-  . Power BI for Data Visualzation.
 
   
                TOTAL REVENUE BY REGION
@@ -53,24 +52,44 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 ![image](https://github.com/user-attachments/assets/6c915df3-5383-4c58-b1b3-ce043b367cec)
 
 
-           AVERAGES SALES BY YEARS 	
+           AVERAGES SALES BY YEARS
+
+
+
+
+    ![image](https://github.com/user-attachments/assets/90c06c44-3300-49c6-be27-88be273a4ea9)
+
+
+    
+
+    
  
 ![image](https://github.com/user-attachments/assets/bd436759-ada2-4852-a2df-5030cdcca1dc)
 
 
 
-![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f
-
-
-![image](https://github.com/user-attachments/assets/0f5e45f1-f52e-4264-9ce6-6f845b0249ba)
-
-
-
-![image](https://github.com/user-attachments/assets/01bf6018-ec66-4ba2-beb7-e1d473f42534)         ![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f
 
 
 
 ![image](https://github.com/user-attachments/assets/0f5e45f1-f52e-4264-9ce6-6f845b0249ba)
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/90c06c44-3300-49c6-be27-88be273a4ea)
+
+
+![image](https://github.com/user-attachments/assets/0c40162f-fd2d-4406-942c-5cb2bf586d1a)
+
+
+
+
+
+
 
 
 
@@ -78,6 +97,8 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 ![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f4)
+
+
 
 
          
@@ -88,11 +109,21 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 
-. SQL- Structured Query Language for Overying of Data.
 
 
 
-CREATE DATABASE FLOR_DB
+
+
+
+
+
+. SQL- Structured Query Language for Querying of Data.
+
+
+
+
+			CREATE DATABASE FLOR_DB
+   
 
 
 select *from [dbo].[Copy of LITA_Capstone_Dataset(4)csv]
@@ -224,11 +255,16 @@ ORDER BY SUM(quantity) desc;
 
 . Power BI for Data Visualzation
 
+This is use to visualized the insights found in Excel and SQL.
+
 
 
 
 
 ![1730592768522](https://github.com/user-attachments/assets/914d4906-90b8-48fe-bdb0-c271b0a9cf04)
+
+
+
 
 
 
@@ -253,7 +289,7 @@ ORDER BY SUM(quantity) desc;
 
 
 ### DATA SOURCES
-The primary source of data used here is a Data Sales csv and this is gotten from canvas.
+The primary source of data used here is a Customer Data csv and this is gotten from canvas.
 
 
 ### TOOLS USED
@@ -306,7 +342,9 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 
-. SQL- Structured Query Language for Overying of Data.
+. SQL- Structured Query Language for Querying of Data.
+
+
 
 
 
@@ -315,6 +353,7 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 SELECT * from [dbo].[CUSTOMER DATA 2]
+
 
 				----to retrieve the total number of customers from each region---
     
@@ -463,9 +502,36 @@ Select
 
 
 
+  
+
+
+
 
 
  . Power BI for Data Visualzation.
+
+ This is use to visualized the insights found in Excel and SQL.
+
+
+ 
+
+
+ 
+
+
+![3](https://github.com/user-attachments/assets/023145fa-9e29-49db-aa86-cf030bc65044)
+
+
+
+
+
+
+
+
+
+
+![2 (1) (2)](https://github.com/user-attachments/assets/571dcff8-224f-434d-a3b3-12d9fdd9ae86)
+
 
 
 
