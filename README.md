@@ -240,7 +240,13 @@ ORDER BY SUM(quantity) desc;
 
 
 
+
+
+
+
   ####     CUSTOMER DATA
+
+  
   #### SUMMARY
   This project involues analysising customer data for a subscription service to identify segments and trends. the goal is to understand customer behavior, and track subscription types, 
   and identify key trends in cancellations and renewals.
@@ -248,6 +254,7 @@ ORDER BY SUM(quantity) desc;
 
 ### DATA SOURCES
 The primary source of data used here is a Data Sales csv and this is gotten from canvas.
+
 
 ### TOOLS USED
   . Microsoft Excel [downloade here]{htts://www.microsoftexcel.com}
@@ -295,7 +302,164 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
  
 
+
+
+
+
 . SQL- Structured Query Language for Overying of Data.
+
+
+
+						---- CUSTOMER DATA----
+
+
+
+SELECT * from [dbo].[CUSTOMER DATA 2]
+
+				----to retrieve the total number of customers from each region---
+    
+
+select customerid, region, count(*) as number_visits from [dbo].[CUSTOMER DATA 2]
+
+group by customerid,region
+
+order by 2 desc
+
+
+				----to fine most popular subscrpition type by the number of customer----
+
+    select 
+   
+    subscriptiontype,
+   
+    count( DISTINCT customerid) AS customer_count
+
+from [dbo].[CUSTOMER DATA 2]
+  
+   GROUP BY
+       subscriptiontype
+  
+   ORDER BY 
+   customer_count DESC
+    
+
+				 ----to fine customers who canceled their subscription within 6 months----
+     
+
+select
+
+customerid,
+
+ customername,
+
+ subscriptionstart,
+
+ subscriptionend,canceled
+
+ from [dbo].[CUSTOMER DATA 2]
+
+ subscriptions
+
+ where
+ canceled=1
+ and datediff(month, subscriptionend, subscriptionstart) <=6
+ 
+ 
+ 
+				---TO GET AVERAGE SUBSCRIPTION DURATION FOR ALL CUSTOMER---
+    
+ select
+ 
+ AVG(DATEDIFF(DAY, 2022-01-31, 2024-12-31)) as average_subscription_duration
+ 
+ from [dbo].[CUSTOMER DATA 2]
+ 
+     suscriptions;
+
+	 		----TO FINE CUSTOMERS WITH SUBSCRIPTION LONGER THAN 12 MONTHS-----
+    
+SELECT
+
+ customerid,
+ 
+ customername,
+ 
+ subscriptionstart,
+ 
+ subscriptionend,subscription_duration
+ 
+ from [dbo].[CUSTOMER DATA 2]
+ 
+ subscriptions
+ 
+ where
+ subscription_duration =1
+ and datediff(month, subscriptionend, subscriptionstart) <=12
+
+ 
+
+				----TO GET TOTAL REVENUE BY SUBSCRIPTION TYPE----
+    
+SELECT
+     subscriptiontype,
+     
+      sum(revenue) as total_revenue
+      
+  from [dbo].[CUSTOMER DATA 2]
+  
+      subscriptions
+      
+	  group by
+	  subscriptiontype
+   
+	  order by total_revenue DESC;
+
+
+  				 ----TO GET TOP 3 REGIONS BY SUBSCRIPTION CANCELLATIONS.-----
+       
+
+SELECT region,
+
+   customerid,
+   
+ customername,
+ 
+ subscriptionstart,
+ subscriptionend,canceled
+ 
+ from [dbo].[CUSTOMER DATA 2]
+ 
+ subscriptions
+ 
+ where
+ 
+ canceled=1
+ and datediff(month, subscriptionend, subscriptionstart)<=3 
+
+
+ 					 ---- to get total number of active and canceled subscription----
+
+       
+SELECT
+
+customerid,
+
+customername,
+     caneled(false)
+     
+	 count(subscriptiontype) AS totalcount  from [dbo].[CUSTOMER DATA 2]
+  
+	 subscriptions
+  
+	 group by 'canceled(false)'
+  
+Select
+
+     subscriptions
+     
+	 COUNT(subscriptiontype) AS total  from [dbo].[CUSTOMER DATA 2]
+  
+	 group by canceled
 
 
 
