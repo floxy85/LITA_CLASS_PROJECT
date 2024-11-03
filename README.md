@@ -17,7 +17,7 @@ The primary source of data used here is a Data Sales csv and this is gotten from
  
  3, for Data Visualization.
  
-  . SQL- Structured Query Language for Overying of Data.
+  
   
   . Power BI for Data Visualzation.
 
@@ -62,6 +62,7 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 ![image](https://github.com/user-attachments/assets/23daf297-4069-4558-b995-69cf7f2ed2f
 
 
+![image](https://github.com/user-attachments/assets/0f5e45f1-f52e-4264-9ce6-6f845b0249ba)
 
 
 
@@ -86,9 +87,16 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 
+
+. SQL- Structured Query Language for Overying of Data.
+
+
+
 CREATE DATABASE FLOR_DB
 
+
 select *from [dbo].[Copy of LITA_Capstone_Dataset(4)csv]
+
 
 
                 -----To get Revenue By Product------
@@ -213,6 +221,8 @@ ORDER BY SUM(quantity) desc;
 
 
 
+
+. Power BI for Data Visualzation.
 
 
 
