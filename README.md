@@ -240,11 +240,68 @@ ORDER BY SUM(quantity) desc;
 
 
 
+  ####     CUSTOMER DATA
+  #### SUMMARY
+  This project involues analysising customer data for a subscription service to identify segments and trends. the goal is to understand customer behavior, and track subscription types, 
+  and identify key trends in cancellations and renewals.
+
+
+### DATA SOURCES
+The primary source of data used here is a Data Sales csv and this is gotten from canvas.
+
+### TOOLS USED
+  . Microsoft Excel [downloade here]{htts://www.microsoftexcel.com}
+  
+ 1, for Data cleaning.
+ 
+ 2, for Analysis.
+ 
+ 3, for Data Visualization.
+
+
+ 
+![image](https://github.com/user-attachments/assets/a6c6455a-64d9-4aad-a238-08827fa3e2b9)
+
+
+
+
+![image](https://github.com/user-attachments/assets/d7d40dd9-f96d-47df-bd3b-a0942a9b5829)
+
+
+
+
+![image](https://github.com/user-attachments/assets/52fd85af-63d8-40d1-946f-3165124697ae)
+
+
+
+
+![image](https://github.com/user-attachments/assets/4040f97b-5c12-4b96-9d2a-33a0fbf74c7d)
+
+
+
+
+![image](https://github.com/user-attachments/assets/f67e364a-91fd-4461-9803-76b84ab6140b)
+
+
+
+
+![image](https://github.com/user-attachments/assets/af526f95-076a-4eaf-ae36-f4f26a26b116)
 
 
 
 
 
+
+
+ 
+
+. SQL- Structured Query Language for Overying of Data.
+
+
+
+
+
+ . Power BI for Data Visualzation.
 
 
 
