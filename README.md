@@ -17,21 +17,22 @@ The primary source of data used here is a Data Sales csv and this is gotten from
  
  3, for Data Visualization.
  
-  
-  
 
-  
-               TOTAL REVENUE BY REGION
+
+
+### DATA ANALYSIS			
+ 
+  		 TOTAL REVENUE BY REGION
                
 ![image](https://github.com/user-attachments/assets/9321c242-d100-4468-8d5b-04ac7a2fc26f)
 
 
-             TOTAL REVENUE BY PRODUCT
+            	 TOTAL REVENUE BY PRODUCT
              
 ![image](https://github.com/user-attachments/assets/b313264e-d602-4e56-8e3e-eb8c88a66475)
 
 
-               TOTAL REVENUE BY MONTH 
+              	 TOTAL REVENUE BY MONTH 
                
 ![image](https://github.com/user-attachments/assets/db48a912-5d6c-47e2-8e8d-3d0d57783596)
 
@@ -115,7 +116,7 @@ The primary source of data used here is a Data Sales csv and this is gotten from
 
 
 
-
+### SQL-STRUCTURED QUERY LANGUAGE
 
 . SQL- Structured Query Language for Querying of Data.
 
@@ -253,7 +254,9 @@ ORDER BY SUM(quantity) desc;
 
 
 
-. Power BI for Data Visualzation
+### DATA VISAULZATION
+
+. Power BI for Data Visualzation using it dashboard to visualized data. 
 
 This is use to visualized the insights found in Excel and SQL.
 
@@ -302,6 +305,9 @@ The primary source of data used here is a Customer Data csv and this is gotten f
  3, for Data Visualization.
 
 
+
+### DATA ANALYSIS
+
  
 ![image](https://github.com/user-attachments/assets/a6c6455a-64d9-4aad-a238-08827fa3e2b9)
 
@@ -340,7 +346,7 @@ The primary source of data used here is a Customer Data csv and this is gotten f
 
 
 
-
+###   SQL- STRUCTURED QUERY LANGUAGE
 
 . SQL- Structured Query Language for Querying of Data.
 
@@ -502,11 +508,21 @@ Select
 
 
 
+
+
+
+
+
+
   
 
 
 
+  
 
+
+
+###   DATA VISUALIZATION
 
  . Power BI for Data Visualzation.
 
@@ -518,9 +534,7 @@ Select
 
  
 
-
-![3](https://github.com/user-attachments/assets/023145fa-9e29-49db-aa86-cf030bc65044)
-
+![IMG_20241105_121743_251~2](https://github.com/user-attachments/assets/af84cd1a-2db7-449d-869f-496eedc3ce99)
 
 
 
@@ -530,7 +544,21 @@ Select
 
 
 
-![2 (1) (2)](https://github.com/user-attachments/assets/571dcff8-224f-434d-a3b3-12d9fdd9ae86)
+
+
+
+![IMG_20241105_121452_971](https://github.com/user-attachments/assets/11be4bf7-8f64-446e-80dd-b46b3c4495e6)
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
