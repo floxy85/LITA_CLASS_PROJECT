@@ -9,7 +9,7 @@ This Data Analysis project aims to generate insight into the sales performance o
 The primary source of data used here is a Data Sales csv and this is gotten from canvas.
 
 ### TOOLS USED
-  . Microsoft Excel [downloade here]{https://www.microsoftexcel.com}
+  . Microsoft Excel [downloade here](https://www.microsoftexcel.com)
   
  1, for Data cleaning.
  
