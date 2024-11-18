@@ -296,7 +296,7 @@ The primary source of data used here is a Customer Data csv and this is gotten f
 
 
 ### TOOLS USED
-  . Microsoft Excel [downloade here]{htts://www.microsoftexcel.com}
+  . Microsoft Excel [downloadhere](https://www.microsoftexcel.com)
   
  1, for Data cleaning.
  
